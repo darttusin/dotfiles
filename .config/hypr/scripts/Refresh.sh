@@ -23,7 +23,7 @@ for _prs in "${_ps[@]}"; do
 done
 
 # added since wallust sometimes not applying
-killall -SIGUSR2 waybar 
+killall -SIGUSR2 waybar
 
 # quit ags & relaunch ags
 #ags -q && ags &
@@ -46,10 +46,5 @@ swaync > /dev/null 2>&1 &
 # reload swaync
 swaync-client --reload-config
 
-# Relaunching rainbow borders if the script exists
-sleep 1
-if file_exists "${UserScripts}/RainbowBorders.sh"; then
-    ${UserScripts}/RainbowBorders.sh &
-fi
 
 exit 0
