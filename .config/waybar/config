@@ -19,7 +19,7 @@
         "separator#blank",
         "tray",
         "separator#blank",
-        "keyboard",
+        "custom/keyboard",
     ],
     "modules-center": [
         "hyprland/workspaces#rw",
