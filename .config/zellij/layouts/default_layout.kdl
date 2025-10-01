@@ -56,9 +56,6 @@ layout {
     }
     children
   }
-  tab name="btop" {
-    pane command="btop";
-  }
   tab name="vpn" split_direction="vertical" {
     pane;
     pane;
